@@ -1,0 +1,102 @@
+ 
+
+
+.menu{
+    background-color:rgb(27, 27, 27) ;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    color: wheat;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: space-around;
+    font-size: x-large;
+    text-transform: uppercase;
+    border-top-left-radius:20px ;
+    border-top-right-radius:20px ;
+    font-weight: bolder;
+    border: 1px firebrick solid;
+    box-sizing: border-box;
+}
+
+.menu:hover{
+    color:lightgray;
+    
+}
+
+body{
+    background: url("img/fonob.png");
+
+}
+
+a{
+text-decoration: none;
+cursor: pointer;
+}
+
+#main_div{
+    
+    width: 70%;
+    background-color: rgb(44, 44, 44);
+    margin-left: auto;
+    margin-right:auto ;
+    margin-top: 50px;
+    border-top-left-radius:20px ;
+    border-top-right-radius:20px ;
+    padding-bottom: 5px;
+}
+
+#info{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+}
+
+#info_users{
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+    font-family:'Comfortaa', sans-serif;
+    
+}
+
+.opis{
+    color: white;
+    display: inline-block;
+    margin-top: 30px;
+    font-size: larger;
+    margin-left:45px ;
+    font-family: sans-serif;
+}
+
+h3, h6, h2{
+    text-align: center;
+    color: white;
+}
+
+ #info_users img{
+    border-radius: 50%;
+    border: 2px firebrick solid;
+    box-sizing: border-box;
+
+}
+#logo{
+display: flex;
+justify-content: center;
+
+
+}
+h3{
+width: 100%;
+
+}
+
+.copy{
+    color: white;
+    margin: 20px;
+}

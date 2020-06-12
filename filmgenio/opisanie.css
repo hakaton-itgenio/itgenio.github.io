@@ -1,0 +1,172 @@
+*{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.poster{
+
+margin-left: 45px;
+width: 304px;
+height: 400px;
+}
+.menu{
+background-color:rgb(27, 27, 27) ;
+width: 100%;
+height: 50px;
+margin-bottom: 10px;
+color: wheat;
+font-family: 'Times New Roman', Times, serif;
+display: flex;
+justify-content: space-around;
+font-size: x-large;
+text-transform: uppercase;
+border-top-left-radius:20px ;
+border-top-right-radius:20px ;
+border: 1px firebrick solid;
+box-sizing: border-box;
+}
+
+.titul{
+text-transform: uppercase;
+font-weight: bold;
+color: white;
+font-family: sans-serif;
+text-align: center;
+margin-top: 30px;
+font-size: x-large;
+display: flex;
+justify-content: center;
+
+}
+
+.obz{
+color: white;
+display: inline-block;
+margin-top: 15px;
+font-size: x-large;
+margin-left:45px ;
+font-family: sans-serif;
+width: 600px;
+vertical-align: top;
+}
+a{
+text-decoration: none;
+cursor: pointer;
+color: white;
+
+}
+.opis{
+color: white;
+display: inline-block;
+margin-top: 30px;
+font-size: x-large;
+margin-left:45px ;
+font-family: sans-serif;
+
+
+
+
+
+}
+.c{
+color: wheat;
+display: inline-block;
+font-size: x-large;
+margin-left:45px ;
+font-family: sans-serif;
+
+
+}
+.ok{
+width: 70%;
+background-color: rgb(44, 44, 44);
+margin-left: auto;
+margin-right: auto;
+margin-top: 50px;
+border-top-left-radius:20px ;
+border-top-right-radius:20px ;
+padding-bottom: 20px;
+}
+.player{
+
+outline: none;
+width: 900px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+max-width: 100%;
+}
+.ocenki{
+color: white;
+font-size:xx-large ;
+font-family: sans-serif;
+display: inline-block;
+margin-left:45px ;
+margin-bottom: 10px;
+margin-top: 50px;
+
+}
+.copy {
+    margin-left: 20px;
+    color: white;
+}
+body{
+background-image: url("img/fonob.png");
+
+
+}
+.item {
+    width: 165px; 
+    text-align: center;
+}
+.item img {
+    height: 260px;
+}
+
+@media screen and (max-width: 1400px) {
+    .poster{
+width: 200px;
+height: 300px;
+    }
+    .obz{
+font-size: large;
+width: 400px;
+    }
+    .c{
+font-size: large;
+
+    }
+
+}
+@media screen and (max-width: 1300px) {
+    .player{
+width: 600px;
+
+    }
+}
+@media screen and (max-width: 800px) {
+    .ok{
+        width: 100%;
+    }
+    .obz{
+width: 100%;
+margin-left: 0;
+margin-right: 0;
+
+    }
+}
+@media screen and (max-width: 950px) {
+    .titul{
+font-size: large;
+
+    }
+    .poster{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .menu{
+        font-size: medium;
+    }
+}
