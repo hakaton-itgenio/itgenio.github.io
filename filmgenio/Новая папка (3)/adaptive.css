@@ -1,0 +1,27 @@
+.owl-prev span{
+    position :absolute;
+    top : 150px;
+    left:40px;
+    background-color: white;
+    width: 15px;
+    border-radius: 50%;
+}
+.owl-next span{
+    position :absolute;
+    top : 150px;
+    right:40px;
+    background-color: white;
+    width: 15px;
+    border-radius: 50%;
+}
+.owl-stage-outer{
+    margin:50px 100px;
+    height: 300px;
+    background-color:rgb(27, 27, 27) ;
+    padding:0;
+    color: white;
+    border-radius: 10px;
+}
+.ok{
+    height: 110%;
+}
