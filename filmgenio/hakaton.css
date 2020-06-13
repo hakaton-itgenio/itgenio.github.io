@@ -36,7 +36,7 @@ body {
 .infilms{
 	width: 74%;
 	margin: auto;
-    text-align: left;
+  text-align: center;
 }
 .films {
 	background-color: black;
@@ -89,16 +89,7 @@ body {
 	padding-top: 20px;
   }
 }
-@media screen and (max-width: 1370px) {
-	.infilms{
-		text-align: center;
-	}
-}
-@media screen and (max-width: 1690px) {
-	.ininfilms{
-		width:1000px
-	}
-}
+
 *{
 text-decoration: none;
 
