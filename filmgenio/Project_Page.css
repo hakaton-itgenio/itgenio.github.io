@@ -70,7 +70,6 @@ cursor: pointer;
     display: inline-block;
     margin-top: 30px;
     font-size: larger;
-    margin-left:45px ;
     font-family: sans-serif;
 }
 
@@ -79,17 +78,26 @@ h3, h6, h2{
     color: white;
 }
 
- #info_users img{
+ #info_users .img{
     border-radius: 50%;
     border: 2px firebrick solid;
     box-sizing: border-box;
-
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    background-size: cover;
 }
+
+
 #logo{
 display: flex;
 justify-content: center;
-
-
+width: 700px;
+max-width: 100%;
+margin: auto;
+}
+#logo img {
+    width: 100%;
 }
 h3{
 width: 100%;
@@ -99,4 +107,19 @@ width: 100%;
 .copy{
     color: white;
     margin: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .ok{
+        width: 100%;
+    }
+    #main_div{
+width: 100%;
+margin-left: 0;
+margin-right: 0;
+
+    }
+.opis {
+        font-size: large;
+    }
 }
